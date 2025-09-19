@@ -1,0 +1,58 @@
+in react we use components(reusalble components) instead of DOM
+; components helps us write reusable, modular, and better organixed code
+
+assencially  a react application is tree of components 
+
+1. setting up the development Environment
+* must have node version >=16
+
+2. creating a react app (two way)
+* create react app( CRA)
+* Vite (npm create vite@latest or npm create vite@4.1.0)
+--> ask name of project -> react-app
+--> ask select a framework -> vanilla (pure js without and third party tool) or vue or react --> select react
+--> now have to select language, js or typescript
+* now it will tell you 
+Done. Now run:
+
+  cd react-app
+  npm install or npm i ( install all the third party dependency)
+  npm run dev
+
+  note: if you want to open this project direct in the vs code and use (code .)
+
+  3. project structure
+  * node_modules-> (all the third party modules are installed)
+  * public -> where all the imgs, videos should be there
+  * src -> we have a default component called single app component -> App.tsx
+  * outside we have --> index.html -> we have div with id (root) that is the container for our application
+  and below it we have a script src= '/src/main.tsx' -> which is entry point of our application 
+
+  4. creatign a React component
+  use ts --> for typescript file 
+  and tsx --> for typescript react component
+  --> so first make a typescript component called -> Message.tsx
+
+  * there is two way to create react component 1. js class 2. fn , these day fn base component become more popular bz these are more consize and easy to write
+--> eg funcation Message() {}
+
+note: '.' period mean current folder
+
+5. how react work 
+6. React Ecosystem
+* we have learnt about that react is a js lib for buildig user interfaces
+but we also have some framework like Angular and Vue so what is diff bw lib and framework
+--> lib -> A tool that provides specific functionality
+--> framework -> A set of tools and guidelines for building apps
+* so react is only a tool which is made to inhence the UI (dynamic and interactive user interfaces)
+that why we hardly use only react to build modern application we often need addition tools like 1. 'Routing' (allowing to the user to go from one page to another ) 
+2. HTTP (make HTTP calls), 3. Managing app state, 3. internationalization ,4. form validation, 5. Animations --> so react don't demant any specific tool you can use any others 
+
+
+6. Building components; we will learnt
+* Building components 
+* Rendering markup with JSX
+* Managing state
+* Managing state
+* Passing input via props
+* Debugging React apps
