@@ -56,3 +56,26 @@ that why we hardly use only react to build modern application we often need addi
 * Managing state
 * Passing input via props
 * Debugging React apps
+
+
+1. we are gonna make basic list group component
+first we are gonna install 'BOOTstrap'(very popular css lib give us a banch of css classes for stylig of our application) for modern look app
+* so for this use --> npm i bootstrap@5.2.3
+
+# so we have to css file 1. app.css and 2. index.css(so this our global style for our application)
+--> so we don't need it's content which is vite genertated so remove it
+
+# you can see that in my 'main.tsx' , './index.css' file is imported
+so we will replace it by -> 'bootstrap/dist/css/bootstrap.css'
+
+* so for list of components we make a folder components in the src (we by default do this)
+* now we need to Show list of item in application so for this have to bollow some code from bootstrap --> go ''getbootstrap.com''
+* on there components section you will see 'List group'
+
+*Note;  key feature; if you html is not formated you can go --> ctrl+shift+p -> go format Document -> it will automatically format it
+
+## Fragments
+* if error showing go --> same go ctrl+ shift + p -> wrap with abbreviation -> after that we have to those which element you want to use for wrap it
+
+
+## Rendering Lists; 
